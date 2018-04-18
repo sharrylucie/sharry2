@@ -1,1 +1,35 @@
 // Specific CSS for your home-page
+
+// Header
+.banner-header {
+  color: white;
+  text-align: center;
+  height: 100vh;
+  /* if you have a 70px navbar => height: calc(100vh - 70px); */
+  background-size: cover !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.banner-header h1 {
+  text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+}
+.banner-header h3 {
+  color: $white;
+  opacity: 0.6;
+  margin-bottom: 30px;
+}
+
+//container yellow-wrapper
+.container {
+  text-align: center;
+}
+
+// Where
+.where-content {
+  // display: flex;
+  // justify-content: space-around;
+  // align-items: center;
+  color: $yellow;
+  height: 200px;
+}
