@@ -6,52 +6,10 @@
 }
 
 // Where
-.where {
-  height: 300px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-image: linear-gradient(150deg, rgba(100, 100, 100, 0.3) 0%, rgba(0, 0, 0, 0.6) 50%), url("Lille4.jpg");
-  background-size: cover;
-  background-position: bottom;
-  border-radius: 5px;
-  h3 {
-  text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
-  font-weight: 600;
-  }
-  p {
-  opacity: 0.8;
-  font-weight: 300;
-  padding-top: 10px;
-  }
-}
-
 .where-content {
+  // display: flex;
+  // justify-content: space-around;
+  // align-items: center;
   color: $yellow;
-}
-
-// Fully furnished
-.furnished {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding: 10px 0;
-}
-
-.furnished-content {
-  text-align: left;
-  width: 445px;
-  h3 {
-    font-weight: 400;
-    width: max-content;
-    box-shadow: inset 0 -12px 0 rgba(242,255,0,0.6);
-  }
-  p {
-    font-weight: lighter;
-  }
-}
-
-.images {
-  height: 215px;
-  width: 443px;
+  height: 200px;
 }
