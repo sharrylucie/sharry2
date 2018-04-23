@@ -41,6 +41,9 @@ gem 'font-awesome-sass', '~> 4.7'
 gem 'simple_form'
 
 # Cloudinary
+gem 'cloudinary'
+
+# Gitignore
 gem 'figaro'
 
 group :development, :test do

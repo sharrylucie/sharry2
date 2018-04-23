@@ -6,10 +6,25 @@
 }
 
 // Where
+.where {
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(150deg, rgba(100, 100, 100, 0.3) 0%, rgba(0, 0, 0, 0.6) 50%), url("http://res.cloudinary.com/sharry/image/upload/v1524495599/Lille4.jpg");
+  background-size: cover;
+  background-position: bottom;
+  h3 {
+  text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+  font-weight: 600;
+  }
+  p {
+  opacity: 0.8;
+  font-weight: 300;
+  padding-top: 10px;
+  }
+}
+
 .where-content {
-  // display: flex;
-  // justify-content: space-around;
-  // align-items: center;
   color: $yellow;
-  height: 200px;
 }
