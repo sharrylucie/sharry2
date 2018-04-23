@@ -19,12 +19,15 @@
 
     <h2>Fully furnished home</h2>
     <div class="row">
-      <ul class="">
+      <ul>
         <li class="furnished">
-          <a href="/">
-            <%= image_tag "bedroom.jpg", class:"left-pic" %>
-          </a>
-          <div class="furnished-content">
+          <div class="left">
+            <a href="/">
+              <%= image_tag "bedroom.jpg", class:"left-pic" %>
+            </a>
+          </div>
+
+          <div class="right furnished-content">
             <h3>Private bedroom</h3>
             <p>Includes a bathroom</p>
             <p>Peaceful design</p>
@@ -32,16 +35,36 @@
             <p>High speed wifi & Netflix</p>
           </div>
         </li>
+
         <li class="furnished">
-          <div class="furnished-content">
+          <div class="left furnished-content">
             <h3>Playful common spaces</h3>
             <p>Share the kitchen & the trendy living room</p>
+            <p>Terrace for sunny days</p>
             <p>Eco-conscious environment</p>
             <p>Weekly cleaning</p>
           </div>
-          <a href="/">
-            <%= image_tag "bedroom.jpg", class:"left-pic" %>
-          </a>
+          <div class="right images">
+            <a href="/">
+              <%= image_tag "interiordesign.jpg", class:"left-pic" %>
+            </a>
+          </div>
+
+        </li>
+        <li class="furnished">
+          <div class="left images">
+            <a href="/">
+              <%= image_tag "interiordesign.jpg", class:"left-pic" %>
+            </a>
+          </div>
+
+          <div class="right furnished-content">
+            <h3>Community</h3>
+            <p>Home manager</p>
+            <p>Events</p>
+            <p>e-concierge for more services</p>
+            <p>Online booking</p>
+          </div>
         </li>
       </ul>
 

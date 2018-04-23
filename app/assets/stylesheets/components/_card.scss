@@ -1,13 +1,12 @@
 // Card left
 .left-pic {
   height: 215px;
-  // width: 415px;
-  background-size: contain;
   border-radius: 5px;
 }
 
-.right-pic {
-  height: 215px;
-  background-size: contain;
-  border-radius: 5px;
+.left {
+  width: 48%;
+}
+.right {
+  width: 48%;
 }
