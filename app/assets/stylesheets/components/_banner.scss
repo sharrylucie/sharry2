@@ -6,7 +6,7 @@
   justify-content: space-around;
   color: white;
   text-align: center;
-  background-image: linear-gradient(-225deg, rgba(200,200,200,0.6) 0%, rgba(0,0,0,0.6) 50%), image-url("background-home.jpg");
+  background-image: linear-gradient(-225deg, rgba(200,200,200,0.6) 0%, rgba(0,0,0,0.6) 50%), url("http://res.cloudinary.com/sharry/image/upload/v1524486306/background-home.jpg");
   background-size: cover;
   /* if you have a 70px navbar => height: calc(100vh - 70px); */
   // background-size: cover !important;
