@@ -29,3 +29,30 @@
 .where-content {
   color: $yellow;
 }
+
+// Fully furnished
+.furnished {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  text-align: justify;
+}
+
+.furnished-content {
+  text-align: left;
+  width: 445px;
+  h3 {
+    font-weight: 400;
+    width: max-content;
+    box-shadow: inset 0 -12px 0 rgba(242,255,0,0.6);
+  }
+  p {
+    font-weight: lighter;
+  }
+}
+
+.images {
+  height: 215px;
+  width: 443px;
+}
