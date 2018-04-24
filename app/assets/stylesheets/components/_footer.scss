@@ -2,8 +2,10 @@
   background: $gray;
   display: flex;
   align-items: center;
-  height: 350px;
+  min-height: 350px;
   padding: 0px 50px;
+  padding-bottom: 50px;
+
   .container {
     text-align: left;
   }
@@ -47,4 +49,11 @@
 
 #logoca {
   background-color: $white;
+}
+
+
+element.style {
+}
+#footer {
+    border-top: 1px solid #ccc;
 }
