@@ -1,29 +1,31 @@
-<div class="navbar-wagon <%=yield(:navbar_class) %>">
-  <!-- Logo -->
-  <a href="/" class="navbar-wagon-brand">
-    <%= image_tag "logo.png", id: "logo" %>
-    <!-- <p class="navbar-wagon-link navbar-wagon-link:hover sharry-brand">sharry</p> -->
-  </a>
+<div class=" navbar-fixed-top">
+  <div class="navbar-wagon <%=yield(:navbar_class) %>">
+    <!-- Logo -->
+    <a href="/" class="navbar-wagon-brand">
+      <%= image_tag "logo.png", id: "logo" %>
+      <!-- <p class="navbar-wagon-link navbar-wagon-link:hover sharry-brand">sharry</p> -->
+    </a>
 
-  <!-- Right Navigation -->
-  <div class="navbar-wagon-right hidden-xs hidden-sm">
-    <%= link_to "Living at sharry's", living_path, class: "navbar-wagon-item navbar-wagon-link navbar-wagon-link:hover" %>
-    <%= link_to "Design", design_path, class: "navbar-wagon-item navbar-wagon-link navbar-wagon-link:hover" %>
-    <%= link_to "About us", about_path, class: "navbar-wagon-item navbar-wagon-link navbar-wagon-link:hover" %>
-    <%= link_to "Join sharry", home_path, class: "navbar-wagon-link navbar-wagon-link:hover btn-cta join" %>
-  </div>
-
-  <!-- Dropdown appearing on mobile only -->
-  <div class="navbar-wagon-item hidden-md hidden-lg">
-    <div class="dropdown">
-      <i class="fa fa-bars dropdown-toggle" data-toggle="dropdown"></i>
-      <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
-        <li><%= link_to "Living at sharry's", living_path %></li>
-        <li><%= link_to "Design", design_path %></li>
-        <li><%= link_to "About us", about_path %></li>
-        <li><%= link_to "Join sharry", home_path %></li>
-      </ul>
+    <!-- Right Navigation -->
+    <div class="navbar-wagon-right hidden-xs hidden-sm">
+      <%= link_to "Living at sharry's", living_path, class: "navbar-wagon-item navbar-wagon-link navbar-wagon-link:hover" %>
+      <%= link_to "Design", design_path, class: "navbar-wagon-item navbar-wagon-link navbar-wagon-link:hover" %>
+      <%= link_to "About us", about_path, class: "navbar-wagon-item navbar-wagon-link navbar-wagon-link:hover" %>
+      <%= link_to "Join sharry", home_path, class: "navbar-wagon-link navbar-wagon-link:hover btn-cta join" %>
     </div>
-  </div>
 
+    <!-- Dropdown appearing on mobile only -->
+    <div class="navbar-wagon-item hidden-md hidden-lg">
+      <div class="dropdown">
+        <i class="fa fa-bars dropdown-toggle" data-toggle="dropdown"></i>
+        <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
+          <li><%= link_to "Living at sharry's", living_path %></li>
+          <li><%= link_to "Design", design_path %></li>
+          <li><%= link_to "About us", about_path %></li>
+          <li><%= link_to "Join sharry", home_path %></li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
 </div>
