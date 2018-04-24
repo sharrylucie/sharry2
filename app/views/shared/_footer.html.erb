@@ -2,29 +2,31 @@
   <div class="container">
     <div class="row">
       <div class="col-xs-6 col-sm-2 footer-title">
-        <div class="">
+        <div>
           <h3>sharry</h3>
         </div>
-        <p class="">Euratechnologies</p>
-        <p class="">165 Avenue de Bretagne</p>
-        <p class="">59000 Lille</p>
+        <p>Euratechnologies</p>
+        <p>165 Avenue de Bretagne</p>
+        <p>59000 Lille</p>
       </div>
       <div class="col-xs-6 col-sm-2">
         <div class="footer-title">
           <h3>What we do</h3>
         </div>
-        <div class="">
-          <%= link_to "Living at sharry's", living_path, class: "footer-links" %>
-          <%= link_to "Design", design_path, class: "footer-links" %>
+        <div class="footer-links">
+          <%= link_to "Living at sharry's", living_path %>
+          <%= link_to "Design", design_path %>
         </div>
       </div>
       <div class="col-xs-6 col-sm-2">
         <div class="footer-title">
           <h3>Company</h3>
         </div>
-        <%= link_to "About us", about_path, class: "footer-links" %>
-        <%= link_to "Join sharry", home_path, class: "footer-links" %>
-        <%= link_to "Contact us", home_path, class: "footer-links" %>
+        <div class="footer-links">
+          <%= link_to "About us", about_path %>
+          <%= link_to "Join sharry", home_path %>
+          <%= link_to "Contact us", home_path %>
+        </div>
       </div>
       <div class="col-xs-6 col-sm-2">
         <div class="footer-title">
@@ -39,7 +41,14 @@
         <div class="footer-title">
           <h3>Partners</h3>
         </div>
-        <p>Partners</p>
+        <div class="footer-links">
+          <a href="https://www.euratechnologies.com" target="_blank" class="partner-brand">
+            <%= image_tag "https://www.euratechnologies.com/content/themes/euratechnologies/assets/img/euratechnologies-logo-white.svg", id: "logo" %>
+          </a>
+          <a href="https://www.levillagebyca.com/fr/village/nord-de-france" target="_blank" class="partner-brand">
+            <%= image_tag "https://www.levillagebyca.com/themes/custom/levillage/logo-black.svg", id: "logoca" %>
+          </a>
+        </div>
       </div>
     </div>
   </div>
