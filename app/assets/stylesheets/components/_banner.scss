@@ -39,14 +39,14 @@
 
 // Headers
 .banner-headers {
-  height: 415px;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
   color: white;
   text-align: center;
-  background-image: linear-gradient(-225deg, rgba(200,200,200,0.6) 0%, rgba(0,0,0,0.6) 50%), url("http://res.cloudinary.com/sharry/image/upload/c_scale,w_1241/v1524486306/background-home.jpg");
+  height: 415px;
   background-size: cover;
+  background-position: center; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
   h1 {
   text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
   }
