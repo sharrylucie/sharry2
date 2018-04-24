@@ -1,5 +1,5 @@
 <div class=" navbar-fixed-top">
-  <div class="navbar-wagon <%=yield(:navbar_class) %>">
+  <div class="navbar-wagon <%= yield(:navbar_class) %>">
     <!-- Logo -->
     <a href="/" class="navbar-wagon-brand">
       <%= image_tag "logo.png", id: "logo" %>
@@ -29,3 +29,15 @@
 
   </div>
 </div>
+
+<!-- <script>
+  $(window).scroll(function() {
+    var scroll = $(window).scrollTop();
+
+    if (scroll >= 500) {
+        $("navbar-home").addClass("active");
+    } else {
+        $("navbar-home").removeClass("active");
+    }
+  });
+</script> -->
