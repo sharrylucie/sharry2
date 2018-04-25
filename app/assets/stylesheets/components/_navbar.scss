@@ -16,6 +16,7 @@
   box-shadow: none;
   position: absolute;
   width: 100%;
+  transition: 0.5s background-color ease;
   .navbar-wagon-link {
   color: $very-light-gray;
   font-weight: regular;
