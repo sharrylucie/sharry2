@@ -16,7 +16,7 @@
   box-shadow: none;
   position: absolute;
   width: 100%;
-  transition: 0.5s background-color ease;
+  transition: 0.3s background-color ease;
   .navbar-wagon-link {
   color: $white;
   font-weight: regular;
@@ -98,7 +98,3 @@
   border-left: 1px solid #E6E6E6;
   border-top: 1px solid #E6E6E6;
 }
-
-// .active {
-//   background-color: pink;
-// }
