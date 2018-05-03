@@ -15,3 +15,13 @@
 $body-font: "Josefin Sans";
 $headers-font: "Josefin Sans";
 $sharry-font: "Comfortaa", "Josefin Sans";
+
+p {
+  font-weight: lighter;
+}
+
+// sharry brand
+.sharry-brand {
+  font-family: $sharry-font;
+  font-weight: bold;
+}

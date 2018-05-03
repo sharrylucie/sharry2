@@ -1,2 +1,50 @@
-<h1>Pages#living</h1>
-<p>Find me in app/views/pages/living.html.erb</p>
+<div class="banner-headers" style="background-image: linear-gradient(-225deg, rgba(200, 200, 200, 0.1) 0%, rgba(0, 0, 0, 0.6) 50%), url('http://res.cloudinary.com/sharry/image/upload/c_scale,q_60,w_965/v1525349184/tong.jpg');">
+  <div class="banner-content">
+    <h1>Living at sharry's</h1>
+  </div>
+</div>
+
+<div class="yellow-wrapper">
+  <div class="container">
+    <h2>sharry’s concept</h2>
+      <h3>Live with your alter egos in an distinguished home</h3>
+      <p>
+        You look for comfort in a furnished place and like living in a house with character.
+        You are independent but appreciate the warming atmosphere of roomsharing.
+        sharry is in between house sharing and hotel.
+      </p>
+      <p>
+        Here everybody has its own bathroom, while sharing the kitchen and the living-room.
+        sharry makes easier the millenial generation life respecting their need to « live together but separated ». The sharryhome is an atypical setting where the sharrymate feels at home.
+      </p>
+
+      <h2>Compared rent</h2>
+      <img src="http://res.cloudinary.com/sharry/image/upload/c_scale,q_100,w_734/v1525349923/rent_comparison.jpg" alt="Rent comparison" class="rent-comparison">
+
+
+      <%= render 'shared/fullyfurnished' %>
+      <h2>Community</h2>
+      <div class="row furnished">
+        <img src="http://res.cloudinary.com/sharry/image/upload/c_scale,h_427,q_100/v1525340691/community.jpg" alt="Community" class="col-xs-12 col-sm-6 images">
+        <div class="col-xs-12 col-sm-6 furnished-content">
+          <h3>Happy vibes together</h3>
+          <p>Home manager</p>
+          <p>Events</p>
+          <p>Millenial tools like whatsapp & slack</p>
+        </div>
+      </div>
+
+      <h2>Services</h2>
+      <div class="row furnished">
+        <div class="col-xs-12 col-sm-6 furnished-content">
+          <h3>All online</h3>
+          <p>Booking & rent contract</p>
+          <p>E-concierge:</p>
+          <p>Room cleaning, bedlinen rental...</p>
+        </div>
+        <img src="http://res.cloudinary.com/sharry/image/upload/c_scale,h_427,q_100/v1525340493/telephone.jpg" alt="E-concierge" class="col-xs-12 col-sm-6 images">
+      </div>
+
+  </div>
+  <%= render 'shared/joinbanner' %>
+</div>
