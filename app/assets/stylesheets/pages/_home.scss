@@ -1,5 +1,3 @@
-// Specific CSS for your home-page
-
 //container yellow-wrapper
 .container {
   text-align: center;
@@ -53,7 +51,8 @@
 @media (min-width: 768px) {
   .furnished-content {
     padding: 0 15px;
-    width: fit-content;
-
+    h3 {
+      width: fit-content;
+    }
   }
 }
