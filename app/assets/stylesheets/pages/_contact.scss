@@ -1,3 +1,11 @@
-#hello {
+.hello {
   color: $yellow;
+  font-weight: lighter;
+  text-decoration: none;
+}
+
+.hello:hover {
+  color: #F1FF00;
+  font-weight: 400;
+  text-decoration: none;
 }
