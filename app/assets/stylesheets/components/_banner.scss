@@ -62,7 +62,7 @@
 
 // Headers images
 .bannerdesign {
-  background-image: linear-gradient(-225deg, rgba(200,200,200,0.6) 0%, rgba(0,0,0,0.6) 50%), url("livingroomfleur.jpg");
+  background-image: linear-gradient(-225deg, rgba(200,200,200,0.6) 0%, rgba(0,0,0,0.6) 50%), url(asset-path("livingroomfleur.jpg"));
 }
 .bannerabout {
   background-image: linear-gradient(-225deg, rgba(200, 200, 200, 0.1) 0%, rgba(0, 0, 0, 0.6) 50%), url("ampoules.jpg");
