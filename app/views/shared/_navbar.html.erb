@@ -11,7 +11,7 @@
       <%= link_to "Living at sharry's", living_path, class: "navbar-wagon-item navbar-wagon-link navbar-wagon-link:hover" %>
       <%= link_to "Design", design_path, class: "navbar-wagon-item navbar-wagon-link navbar-wagon-link:hover" %>
       <%= link_to "About us", about_path, class: "navbar-wagon-item navbar-wagon-link navbar-wagon-link:hover" %>
-      <%= link_to "Join sharry", home_path, class: "navbar-wagon-link navbar-wagon-link:hover btn-cta join" %>
+      <a href="home.html#joinsharry" class="navbar-wagon-link navbar-wagon-link:hover btn-cta join">Join sharry</a>
     </div>
 
     <!-- Dropdown appearing on mobile only -->
@@ -22,22 +22,10 @@
           <li><%= link_to "Living at sharry's", living_path %></li>
           <li><%= link_to "Design", design_path %></li>
           <li><%= link_to "About us", about_path %></li>
-          <li><%= link_to "Join sharry", home_path %></li>
+          <a href="#joinsharry" class="navbar-wagon-link navbar-wagon-link:hover btn-cta join">Join sharry</a>
         </ul>
       </div>
     </div>
 
   </div>
 </div>
-
-<!-- <script>
-  $(window).scroll(function() {
-    var scroll = $(window).scrollTop();
-
-    if (scroll >= 500) {
-        $("navbar-home").addClass("active");
-    } else {
-        $("navbar-home").removeClass("active");
-    }
-  });
-</script> -->
