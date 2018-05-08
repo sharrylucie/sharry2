@@ -41,8 +41,9 @@
     font-weight: 300;
   }
 }
-#email {
-  font-weight: lighter;
+.subemail {
+  font-weight: 300 !important;
+  // font-size: 14px;
 }
 
 // Headers except homepage
