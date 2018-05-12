@@ -1,7 +1,5 @@
 // Card
-// .images {
-//   border-radius: 5%;
-// }
+
 
 // Card profile
 .profile-content {
@@ -13,3 +11,46 @@
     box-shadow: inset 0 -12px 0 rgba(242,255,0,0.6);
   }
 }
+
+
+// Photo + text Fully furnished
+.furnished {
+  padding: 20px 0;
+}
+@media (min-width: 768px) {
+  .furnished {
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+  }
+}
+
+.furnished-content {
+  text-align: left;
+  padding: 15px 15px 0 15px;
+  h3 {
+    font-weight: 400;
+    width: max-content;
+    box-shadow: inset 0 -12px 0 rgba(242,255,0,0.6);
+  }
+}
+@media (min-width: 768px) {
+  .furnished-content {
+    padding: 0 15px;
+    h3 {
+      width: fit-content;
+    }
+  }
+}
+
+
+// Card photo
+// .images {
+//   height: 150px;
+//   padding: 10px;
+//   display: flex;
+//   background-size: cover;
+// }
+// .photoalexlucie {
+//   background-image: url("http://res.cloudinary.com/sharry/image/upload/c_scale,h_427,q_100/v1524580708/alexlucie.jpg");
+// }
