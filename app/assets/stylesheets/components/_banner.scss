@@ -6,7 +6,7 @@
   justify-content: space-around;
   color: white;
   text-align: center;
-  background-image: linear-gradient(-225deg, rgba(200,200,200,0.6) 0%, rgba(0,0,0,0.6) 50%), url("http://res.cloudinary.com/sharry/image/upload/c_scale,dpr_auto,q_100,w_1200/v1524486306/background-home.jpg");
+  background-image: linear-gradient(-225deg, rgba(200,200,200,0.6) 0%, rgba(0,0,0,0.6) 50%), url("http://res.cloudinary.com/sharry/image/upload/c_scale,dpr_auto,q_100,w_600/v1524486306/background-home.jpg");
   background-size: cover;
   background-position: top;
   /* if you have a 70px navbar => height: calc(100vh - 70px); */
@@ -19,7 +19,7 @@
 }
 @media (min-width: 768px) {
   .banner-header {
-    background-image: linear-gradient(-225deg, rgba(200,200,200,0.6) 0%, rgba(0,0,0,0.6) 50%), url("http://res.cloudinary.com/sharry/image/upload/c_scale,w_1241/v1524486306/background-home.jpg");
+    background-image: linear-gradient(-225deg, rgba(200,200,200,0.6) 0%, rgba(0,0,0,0.6) 50%), url("http://res.cloudinary.com/sharry/image/upload/c_scale,dpr_auto,q_100,w_1200/v1524486306/background-home.jpg");
     background-position: center;
   }
 }
@@ -29,7 +29,7 @@
   height: 500px;
   padding-top: 100px;
   text-align: center;
-  background-image: linear-gradient(-225deg, rgba(200,200,200,0.6) 0%, rgba(0,0,0,0.6) 50%), url("http://res.cloudinary.com/sharry/image/upload/c_scale,dpr_auto,q_100,w_1200/v1524486298/blondie.jpg");
+  background-image: linear-gradient(-225deg, rgba(200,200,200,0.6) 0%, rgba(0,0,0,0.6) 50%), url("http://res.cloudinary.com/sharry/image/upload/c_scale,dpr_auto,q_100,w_600/v1524486298/blondie.jpg");
   background-size: cover;
   background-position: center;
   h1 {
@@ -44,6 +44,11 @@
 .subemail {
   font-weight: 300 !important;
   // font-size: 14px;
+}
+@media (min-width: 768px) {
+  .join-banner {
+    background-image: linear-gradient(-225deg, rgba(200,200,200,0.6) 0%, rgba(0,0,0,0.6) 50%), url("http://res.cloudinary.com/sharry/image/upload/c_scale,dpr_auto,q_100,w_1200/v1524486298/blondie.jpg");
+  }
 }
 
 // Headers except homepage
@@ -62,14 +67,28 @@
 }
 // Headers images
 .bannerdesign {
-  background-image: linear-gradient(-225deg, rgba(200,200,200,0.6) 0%, rgba(0,0,0,0.5) 50%), url("http://res.cloudinary.com/sharry/image/upload/c_scale,dpr_auto,q_100,w_1200/v1524669546/livingroomfleur.jpg");
+  background-image: linear-gradient(-225deg, rgba(200,200,200,0.6) 0%, rgba(0,0,0,0.5) 50%), url("http://res.cloudinary.com/sharry/image/upload/c_scale,q_90,w_770/v1524669546/livingroomfleur.jpg");
 }
 .bannerabout {
-  background-image: linear-gradient(-225deg, rgba(200, 200, 200, 0.1) 0%, rgba(0, 0, 0, 0.6) 50%), url("http://res.cloudinary.com/sharry/image/upload/c_scale,dpr_auto,q_100,w_1200/v1524644514/ampoules.jpg");
+  background-image: linear-gradient(-225deg, rgba(200, 200, 200, 0.1) 0%, rgba(0, 0, 0, 0.6) 50%), url("http://res.cloudinary.com/sharry/image/upload/c_scale,q_90,w_770/v1524644514/ampoules.jpg");
 }
 .bannerinvestor {
-  background-image: linear-gradient(-225deg, rgba(200, 200, 200, 0.1) 0%, rgba(0, 0, 0, 0.4) 50%), url("http://res.cloudinary.com/sharry/image/upload/c_scale,dpr_auto,q_100,w_1200/v1524660593/facadebrique.jpg");
+  background-image: linear-gradient(-225deg, rgba(200, 200, 200, 0.1) 0%, rgba(0, 0, 0, 0.4) 50%), url("http://res.cloudinary.com/sharry/image/upload/c_scale,q_90,w_770/v1524660593/facadebrique.jpg");
 }
 .bannerliving {
-  background-image: linear-gradient(-225deg, rgba(200, 200, 200, 0.1) 0%, rgba(0, 0, 0, 0.5) 50%), url('http://res.cloudinary.com/sharry/image/upload/c_scale,dpr_auto,q_100,w_1200/v1525349184/tong.jpg');
+  background-image: linear-gradient(-225deg, rgba(200, 200, 200, 0.1) 0%, rgba(0, 0, 0, 0.5) 50%), url('http://res.cloudinary.com/sharry/image/upload/c_scale,q_90,w_770/v1525349184/tong.jpg');
+}
+@media (min-width: 768px) {
+  .bannerdesign {
+    background-image: linear-gradient(-225deg, rgba(200,200,200,0.6) 0%, rgba(0,0,0,0.5) 50%), url("http://res.cloudinary.com/sharry/image/upload/c_scale,dpr_auto,q_100,w_1200/v1524669546/livingroomfleur.jpg");
+  }
+  .bannerabout {
+    background-image: linear-gradient(-225deg, rgba(200, 200, 200, 0.1) 0%, rgba(0, 0, 0, 0.6) 50%), url("http://res.cloudinary.com/sharry/image/upload/c_scale,dpr_auto,q_100,w_1200/v1524644514/ampoules.jpg");
+  }
+  .bannerinvestor {
+    background-image: linear-gradient(-225deg, rgba(200, 200, 200, 0.1) 0%, rgba(0, 0, 0, 0.4) 50%), url("http://res.cloudinary.com/sharry/image/upload/c_scale,dpr_auto,q_100,w_1200/v1524660593/facadebrique.jpg");
+  }
+  .bannerliving {
+    background-image: linear-gradient(-225deg, rgba(200, 200, 200, 0.1) 0%, rgba(0, 0, 0, 0.5) 50%), url('http://res.cloudinary.com/sharry/image/upload/c_scale,dpr_auto,q_100,w_1200/v1525349184/tong.jpg');
+  }
 }
