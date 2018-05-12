@@ -40,14 +40,15 @@
   }
 }
 
-
-// Card photo
-// .images {
-//   height: 150px;
-//   padding: 10px;
-//   display: flex;
-//   background-size: cover;
-// }
-// .photoalexlucie {
-//   background-image: url("http://res.cloudinary.com/sharry/image/upload/c_scale,h_427,q_100/v1524580708/alexlucie.jpg");
-// }
+// Right card on desktop
+  .display-right-img {
+    display: none;
+  }
+@media (min-width: 768px) {
+  .mask-right-card {
+    display: none;
+  }
+  .display-right-img  {
+    display: inherit;
+  }
+}
