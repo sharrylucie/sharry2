@@ -1,0 +1,5 @@
+meta_product_name: "sharry"
+meta_title: "sharry - Coliving for millenial workers in Lille"
+meta_description: "Rent your room in a fully furnished distinguished house & live with your fellows"
+meta_image: "background-home.png"                       # should exist in `app/assets/images/`
+twitter_account: "@product_twitter_account"   # required for Twitter Cards
