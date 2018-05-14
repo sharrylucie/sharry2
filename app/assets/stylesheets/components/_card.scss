@@ -10,7 +10,7 @@
 }
 
 
-// card Fully furnished
+// Card Fully furnished
 .furnished {
   padding: 20px 0;
 }
@@ -51,4 +51,8 @@
   .display-right-img  {
     display: inherit;
   }
+}
+
+.images {
+  box-shadow: 0 50px 80px -40px rgba(0,0,0,.3);
 }
