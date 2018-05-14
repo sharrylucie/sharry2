@@ -12,5 +12,6 @@
   background-image: linear-gradient(150deg, rgba(100, 100, 100, 0.3) 0%, rgba(0, 0, 0, 0.1) 50%), url("http://res.cloudinary.com/sharry/image/upload/c_scale,dpr_auto,fl_png24,q_100,w_1200/v1525957115/blue_boy.jpg");
   background-size: cover;
   background-position: top;
-  // border-radius: 5px;
+  border-radius: 5px;
+  box-shadow: 0 50px 80px -40px rgba(0,0,0,.3);
 }
