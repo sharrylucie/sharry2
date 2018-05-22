@@ -11,29 +11,29 @@
 }
 
 /* Transparent navbar */
-.navbar-home {
-  background: transparent;
-  box-shadow: none;
-  position: absolute;
-  width: 100%;
-  transition: 0.3s background-color ease;
-  .navbar-wagon-link {
-  color: $white;
-  font-weight: regular;
-  }
-  .navbar-wagon-link:hover {
-    color: rgba(250, 250, 250, 0.8);
-    text-decoration: none;
-  }
-  .join {
-    color: $gray;
-    text-decoration: none;
-  }
-  .join:hover {
-    color: $hover-gray;
-    text-decoration: none;
-  }
-}
+// .navbar-home {
+//   background: transparent;
+//   box-shadow: none;
+//   position: absolute;
+//   width: 100%;
+//   transition: 0.3s background-color ease;
+//   .navbar-wagon-link {
+//   color: $white;
+//   font-weight: regular;
+//   }
+//   .navbar-wagon-link:hover {
+//     color: rgba(250, 250, 250, 0.8);
+//     text-decoration: none;
+//   }
+//   .join {
+//     color: $gray;
+//     text-decoration: none;
+//   }
+//   .join:hover {
+//     color: $hover-gray;
+//     text-decoration: none;
+//   }
+// }
 
 /* Logo */
 .navbar-wagon-brand img {

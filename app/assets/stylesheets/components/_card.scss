@@ -1,8 +1,3 @@
-// Card
-// .images {
-//   border-radius: 5%;
-// }
-
 // Card profile
 .profile-content {
   text-align: -webkit-center;
@@ -12,4 +7,52 @@
     width: fit-content;
     box-shadow: inset 0 -12px 0 rgba(242,255,0,0.6);
   }
+}
+
+
+// Card Fully furnished
+.furnished {
+  padding: 20px 0;
+}
+@media (min-width: 768px) {
+  .furnished {
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+  }
+}
+
+.furnished-content {
+  text-align: left;
+  padding: 15px 15px 0 15px;
+  h3 {
+    font-weight: 400;
+    width: max-content;
+    box-shadow: inset 0 -12px 0 rgba(242,255,0,0.6);
+  }
+}
+@media (min-width: 768px) {
+  .furnished-content {
+    padding: 0 15px;
+    h3 {
+      width: fit-content;
+    }
+  }
+}
+
+// Right card on desktop
+  .display-right-img {
+    display: none;
+  }
+@media (min-width: 768px) {
+  .mask-right-card {
+    display: none;
+  }
+  .display-right-img  {
+    display: inherit;
+  }
+}
+
+.images {
+  box-shadow: 0 50px 80px -40px rgba(0,0,0,.3);
 }
