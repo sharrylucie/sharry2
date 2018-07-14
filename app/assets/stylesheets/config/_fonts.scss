@@ -1,5 +1,6 @@
 // Import Google fonts
-@import url('https://fonts.googleapis.com/css?family=Comfortaa:400,700|Josefin+Sans:300,400,600,700|Quicksand:300,400,500,700');
+// @import url('https://fonts.googleapis.com/css?family=Comfortaa:400,700|Josefin+Sans:300,400,600,700|Quicksand:300,400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Assistant:300,400,600|Barlow:300,400,600|Heebo:300,400,700|Hind:300,400,600|Montserrat:300,400,600|Nunito+Sans:300,400,600|Raleway:300,400,600');
 
 // To use a font file (.woff) uncomment following lines
 // @font-face {
@@ -12,9 +13,9 @@
 // $my-font: "LGC";
 
 // Define fonts for body and headers
-$body-font: 'Josefin Sans', 'Quicksand';
-$headers-font: 'Josefin Sans', 'Quicksand';
-$sharry-font: "Comfortaa", "Josefin Sans";
+$body-font: 'Barlow', 'Quicksand';
+$headers-font: 'Barlow', 'Quicksand';
+$sharry-font: "Comfortaa", "Barlow";
 
 p {
   font-weight: lighter;
